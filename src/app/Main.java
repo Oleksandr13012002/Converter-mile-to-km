@@ -14,6 +14,10 @@ public class Main {
         double miles = scanner.nextDouble();
         System.out.printf("%.2f миль = %.2f км\n", miles, miles * MILES_TO_KM);
 
+        System.out.print("Введіть значення в кілометрах: ");
+        double kilometers = scanner.nextDouble();
+        System.out.printf("%.2f км = %.2f миль\n", kilometers, kilometers / MILES_TO_KM);
+
         scanner.close();
     }
 }
